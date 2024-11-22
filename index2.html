@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- In the <head> section of your HTML -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Optional custom styles */
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      
+    }
+    .navbar-nav .nav-link {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem; /* Padding around navbar items */
+      margin: 0 0.5rem; /* Margin between navbar items */
+      position: relative;
+      transition: color 0.3s ease; /* Only transition color on hover */
+    }
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -3px; /* Adjust the position of the dot */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 8px;
+      background-color: transparent;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #f8f9fa !important; /* Change text color on hover */
+    }
+    .navbar-nav .nav-link:hover::after {
+      background-color: #f8f9fa; /* Change dot color on hover */
+    }
+    .navbar-nav .nav-link:hover i {
+      color: #f8f9fa !important; /* Change icon color on hover */
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark p-4" style="background-color: rgb(0, 0, 0);">
+    <div class="container">
+      <a class="navbar-brand" href="#">Perfume Brand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- section1 -->
+<div class="container-fluid back">
+  <div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col my-5 text-white">
+          <div class="p-5">
+            <h1 style="font-size: 60px; font-family:cursive;"data-aos="fade-right" data-aos-delay="400">It smells comfortable <br> and elegant</h1>
+            <button class="btn btn-primary mt-3 p-3" style="width: 200px;">Get a demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- section2 -->
+<div class="container-fluid my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-3">
+      <div class="cardss">
+        <img src="card1.jpg" class="card-img-top" alt="Card 1">
+        <div class="card-body text-white">
+          <h3 class="card-title">Long Lasting Fragrance</h3>
+          <p class="card-text">Fragrant until 12 o'clock <br> meetings from morning</p>
+          <a href="#" class="btn btn-primary p-2 w-100">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="cardss">
+        <img src="card22.avif" class="card-img-top" alt="Card 2">
+        <div class="card-body text-white">
+          <h3 class="card-title">Ingredients for Perfume</h3>
+          <p class="card-text">The ingredients that make a <br> luxury perfume</p>
+          <a href="#" class="btn btn-primary p-2 w-100">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="cardss">
+        <img src="card33.jpg" class="card-img-top" alt="Card 3">
+        <div class="card-body text-white">
+          <h3 class="card-title">Lavender Flower</h3>
+          <p class="card-text">Lavender flowers have a <br> distinctive fragrance</p>
+          <a href="#" class="btn btn-primary p-2 w-100">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="cardss">
+        <img src="card44.jpg" class="card-img-top" alt="Card 4">
+        <div class="card-body text-white">
+          <h3 class="card-title">Blueberry Base Too</h3>
+          <p class="card-text">Blueberries are also a base for <br> perfume</p>
+          <a href="#" class="btn btn-primary p-2 w-100">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section3 -->
+<div class="container-fluid my-5" style="background-color: black;border-radius: 30px;">
+  <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; padding: 30px; color:#f8f9fa"data-aos="fade-right" data-aos-delay="400">There are serveral variants <br>
+  of perfume that you can try </h1>
+  <div class="row">
+    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="image-container">
+        <img src="blue.jpeg" alt="" height="400px">
+        <div class="overlay">
+          <a href="#" class="btn bg-white p-2" style="width: 150px;">View details</a>
+        </div>
+        <div class="image-text">
+          <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 28px;color: white;">Perfume blugaria</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+      <div class="image-container">
+        <img src="luxurious-perfume.avif" alt="" height="400px">
+        <div class="overlay">
+          <a href="#" class="btn bg-white p-2" style="width: 150px;">View details</a>
+        </div>
+        <div class="image-text">
+          <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 28px;color: white;">Perfume belconi</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+      <div class="image-container">
+        <img src="glow.jpeg" alt="" height="400px">
+        <div class="overlay">
+          <a href="#" class="btn bg-white p-2" style="width: 150px;">View details</a>
+
+        </div>
+        <div class="image-text">
+          <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 28px;color: white;">Perfume mean glow</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+      <div class="image-container">
+        <img src="soof.jpeg" alt="" height="400px">
+        <div class="overlay">
+          <a href="#" class="btn bg-white p-2" style="width: 150px;">View details</a>
+
+        </div>
+        <div class="image-text">
+          <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 28px;color: white;">Perfume soof</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section4 -->
+<div class="container-fluid my-5" style="background-color: #10111186;">
+  <div class="row">
+  
+    <div class="col-md-4 d-flex justify-content-center align-items-center text-center">
+      <div style="font-family:Verdana, Geneva, Tahoma, sans-serif; color: white;">
+        <h3 style="font-family:cursive;font-size: 40px;"data-aos="fade-right" data-aos-delay="400">We have a wide range <br> of products</h3>
+        <p>Our products use materials that are not harmful to <br> 
+          the skin, are comfortable to wear, and not sticky <br> when used</p>
+        <button class="btn btn-primary p-3" style="width: 200px;">View more</button>
+      </div>
+    </div>
+    
+  
+    <div class="col-md-8 my-5">
+      <div class="row">
+        <div class="col-md-6 mb-6 mb-md-0">
+          <img src="card1.jpg" class="img-fluid" alt="Card 1">
+        </div>
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="card2.jpeg" class="img-fluid" alt="Card 2">
+        </div>
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="card3.jpeg" class="img-fluid" alt="Card 3">
+        </div>
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="card4.jpg" class="img-fluid" alt="Card 4">
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+<!-- section5 -->
+<div class="container-fluid my-5 p-5" style="background-color: #f8f9fa; border-radius: 30px;">
+  <div class="row">
+    <div class="col-md-6 text-center p-5">
+    <h2 style="font-family: cursive;"> Why you choose us! </h2>
+    <p>Perfume, a subtle yet powerful accessory in the realm of personal care, captivates with its ephemeral allure. From its delicate fragrance to its evocative notes, perfume transcends mere scent—it becomes a signature, an expression of personality and style.
+
+      Crafted through an intricate blend of essences and aromatics, perfume unfolds like a symphony on the skin, leaving a lingering trail of memories. It intertwines with moments, enriching experiences with its aromatic poetry.
+      
+      In a world where scent is a silent storyteller, perfume whispers tales of elegance, confidence, and intimacy. It dances on the senses, leaving an indelible mark on both wearer and admirer alike.
+      
+      A spritz of perfume, a gesture of self-expression—a fragrance that speaks volumes without words, defining moments and leaving an unforgettable impression.</p>
+      <button class="btn btn-primary p-3" style="width: 200px;">Read More</button>
+ 
+    </div>
+    <div class="col-md-6">
+      <img src="gold.jpg" alt="" width="80%" height="500px" style="border-radius:20px ;">
+    </div>
+  </div>
+</div>
+<!-- section6 -->
+<div class="container-fluid my-5 pt-5" style="background-color: rgba(0, 0, 0, 0.651); border-radius: 30px;">
+  <h1 class="text-center" style="font-family: cursive;font-size: 70px;color: white;"data-aos="fade-right" data-aos-delay="400">Our Product collection</h1>
+  <div class="row">
+    <div class="col-md-4 my-5">
+      <div class="imag-container">
+        <img src="blues.jpg" alt="" height="500px" width="100%">
+        <div class="imag-text">
+          Perfume, a subtle yet powerful accessory in the realm of personal care, captivates with its ephemeral allure. From its delicate fragrance to its evocative notes, perfume transcends mere scent—it becomes a signature, an expression of personality and style.</div>
+      </div>
+    </div>
+    <div class="col-md-4 my-5">
+      <div class="imag-container">
+        <img src="pinkw.jpg" alt="" height="500px" width="100%">
+        <div class="imag-text">
+          Perfume, a subtle yet powerful accessory in the realm of personal care, captivates with its ephemeral allure. From its delicate fragrance to its evocative notes, perfume transcends mere scent—it becomes a signature, an expression of personality and style.</div>
+
+        </div>
+      </div>
+      <div class="col-md-4 my-5">
+        <div class="imag-container">
+          <img src="orange.jpeg" alt="" height="500px" width="100%">
+          <div class="imag-text">
+            Perfume, a subtle yet powerful accessory in the realm of personal care, captivates with its ephemeral allure. From its delicate fragrance to its evocative notes, perfume transcends mere scent—it becomes a signature, an expression of personality and style.</div>
+  
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- section7 -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6"> <!-- Adjusted column classes for responsiveness -->
+      <form class="form-inline">
+        <div class="form-group flex-grow-1 mr-2"> <!-- Added flex-grow-1 to grow input -->
+          <label for="searchInput" class="sr-only">Search</label>
+          <input type="text" class="form-control w-100" id="searchInput" placeholder="Search..."> <!-- Added w-100 for full width -->
+        </div>
+        <button type="submit" class="btn btn-primary ">Search</button> <!-- Added btn-block for full width -->
+      </form>
+    </div>
+  </div>
+</div>
+<!-- section8 -->
+<div class="container">
+  <div class="row">
+    
+    <div class="review-container">
+      <div class="review-card">
+          <img src="boy.jpg" alt="Customer Photo" height="50px">
+          <div class="rating">
+              ⭐️⭐️⭐️⭐️⭐️
+          </div>
+          <div class="customer-info">
+              <h3>John Doe</h3>
+              <p>"Excellent service! The team was very professional and courteous. They completed the job on time and exceeded my expectations. Highly recommended!"</p>
+          </div>
+      </div>
+  
+      <div class="review-card">
+          <img src="girl.jpeg" alt="Customer Photo">
+          <div class="rating">
+              ⭐️⭐️⭐️⭐️
+          </div>
+          <div class="customer-info">
+              <h3>Jane Smith</h3>
+              <p>"Overall, a great experience. The product quality was good, but there were a few minor issues with delivery scheduling. Nonetheless, I would use their services again."</p>
+          </div>
+      </div>
+  
+      <div class="review-card">
+          <img src="boy2.webp" alt="Customer Photo" height="50px">
+          <div class="rating">
+              ⭐️⭐️⭐️
+          </div>
+          <div class="customer-info">
+              <h3>Robert Johnson</h3>
+              <p>"Average service. The product met my needs, but communication could have been better. There were delays in responses to my queries which was frustrating."</p>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+</div>
+<!-- section9 -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="footer-col">
+          <h3>Connect with Us</h3>
+          <div class="footer-icons">
+            <a href="https://facebook.com/yourusername" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/yourusername" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/yourusername" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- Add more links as needed -->
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <!-- Add more legal links as needed -->
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="footer-col">
+          <h3>Contact Information</h3>
+          <p>123 Perfume Ave, Suite 456<br>City, State ZIP<br>Country</p>
+          <div class="footer-icons">
+            <a href="mailto:info@example.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Before the closing </body> tag -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
